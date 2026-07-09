@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "movieticket", "movieticket.esproj", "{234D5708-B9B7-6D46-DB6F-F18364C2D0B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{234D5708-B9B7-6D46-DB6F-F18364C2D0B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{234D5708-B9B7-6D46-DB6F-F18364C2D0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{234D5708-B9B7-6D46-DB6F-F18364C2D0B2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{234D5708-B9B7-6D46-DB6F-F18364C2D0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{234D5708-B9B7-6D46-DB6F-F18364C2D0B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{234D5708-B9B7-6D46-DB6F-F18364C2D0B2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4149B995-801D-4043-AA86-E5C207944929}
+	EndGlobalSection
+EndGlobal
