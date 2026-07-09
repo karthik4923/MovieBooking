@@ -8,7 +8,7 @@
   const pass = ref('')
   const msg = ref('')
 
-  function login() {
+  /*function login() {
     const found = users.find((t) => t.email === user.value)
     if (found && found.password === pass.value) {
       localStorage.setItem('user', JSON.stringify(found))
@@ -16,7 +16,21 @@
     } else {
       msg.value = 'wrong credentials!'
     }
+  }*/
+  function login() {
+  console.log(user.value, pass.value);
+
+  const found = users.find((t) => t.email === user.value);
+
+  console.log(found);
+
+  if (found && found.password === pass.value) {
+    localStorage.setItem('user', JSON.stringify(found));
+    router.push('/main/home');
+  } else {
+    msg.value = 'wrong credentials!';
   }
+}
 </script>
 
 <template>
