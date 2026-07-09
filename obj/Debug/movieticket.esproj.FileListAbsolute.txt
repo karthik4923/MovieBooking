@@ -1,0 +1,2 @@
+C:\Users\Karthik\source\repos\MovieTicket\obj\Debug\movieticket.esproj.CoreCompileInputs.cache
+D:\source\repos\MovieTicket\obj\Debug\movieticket.esproj.CoreCompileInputs.cache
